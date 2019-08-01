@@ -1,0 +1,58 @@
+/* styles for general page elements */
+
+.navbar-light .navbar-brand{
+    background-color: darkcyan;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 10%;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: darkcyan;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: Arial, sans-serif;
+}
+
+#main{
+    padding: 3em 2em;
+}
+
+#summary{
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    padding: 1em 1em;
+}
+
+#visualizations{
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    flex-wrap: wrap;
+    padding: 1em 1em;
+}
+
+/* styles for images */
+
+.img-summary{
+    height: 200px;
+    float: left;
+}
+.viz-image{
+    height: 100px;
+}
+
+/* styles for small screens */
+
+/* @media (max-width: 480px) {
+     */
