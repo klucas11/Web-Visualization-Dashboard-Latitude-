@@ -48,11 +48,12 @@ p{
     height: 200px;
     float: left;
 }
+
+.img-main{
+    width: 100%;
+    height: auto;
+}
+
 .viz-image{
     height: 100px;
 }
-
-/* styles for small screens */
-
-/* @media (max-width: 480px) {
-     */
