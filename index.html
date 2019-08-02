@@ -19,7 +19,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,16 +33,16 @@
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Max Temperature</a>
-                        <a class="dropdown-item" href="#">Humidity</a>
-                        <a class="dropdown-item" href="#">Cloudiness</a>
-                        <a class="dropdown-item" href="#">Wind Speed</a>
+                        <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind-speed.html">Wind Speed</a>
                     </div>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Comparison </a>
+                    <a class="nav-link" href="comparison.html">Comparison </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="data.html">Data</a>
                 </li>
             </ul>
         </div>
@@ -50,7 +50,6 @@
 
     <div class="container">
         <div class="row">
-            <!-- <div class="col-lg-12" id="empty"></div> -->
             <div class="col-lg-7 col-sm-12" id="main">
                 <div id="summary">
                     <h1>Summary: Latitude vs. X</h1>
@@ -62,14 +61,14 @@
                         affects weather changes. To accomplish this analysis, I first created a data set by pulling
                         information from OpenWeatherMap API, then used Pandas to assemble a Data Frame of the 500+
                         cities
-                        world wide.
+                        worldwide.
                     </p>
                     <p class="text">I was then able to use Matplotlib to plot and compare latitude with different
                         weather
                         variables. Factors I looked at included: maximum temperature, humidity, cloudiness, and wind
                         speed.
-                        This site provides the source data and vizualizations created for the analysis, as well as
-                        explainations and descriptions of any trends I noticed.
+                        This site provides the source data and visualizations created for the analysis, as well as
+                        explanations and descriptions of any trends I noticed.
                     </p>
                 </div>
             </div>
@@ -77,22 +76,19 @@
                 <div id="visualizations">
                     <h1>Visualizations</h1>
                     <hr>
-                    <a href="temp.html"><img class="viz-image"
+                    <a href="temperature.html"><img class="viz-image"
                             src="https://github.com/klucas11/WeatherPy/blob/master/lat-vs-temp.png?raw=true"
                             alt="Temperature"></a>
                     <a href="humidity.html"><img class="viz-image"
                             src="https://github.com/klucas11/WeatherPy/blob/master/lat-vs-humidity.png?raw=true"
                             alt="Humidity"></a>
-                    <a href="cloud.html"><img class="viz-image"
+                    <a href="cloudiness.html"><img class="viz-image"
                             src="https://github.com/klucas11/WeatherPy/blob/master/lat-vs-cloudiness.png?raw=true"
                             alt="Cloudiness"></a>
-                    <a href="wind.html"><img class="viz-image"
+                    <a href="wind-speed.html"><img class="viz-image"
                             src="https://github.com/klucas11/WeatherPy/blob/master/lat-vs-wind.png?raw=true"
                             alt="Wind Speed"></a>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12" id="empty"></div>
             </div>
         </div>
 </body>
