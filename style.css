@@ -1,7 +1,7 @@
 /* styles for general page elements */
 
 .navbar-light .navbar-brand{
-    background-color: darkcyan;
+    background-color: rgb(1, 165, 165);
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 2em;
@@ -16,13 +16,22 @@ body{
 }
 
 h1{
-    color: darkcyan;
+    color: rgb(1, 165, 165);
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
+    text-align: left;
+}
+
+h3{
+    color: rgb(1, 165, 165);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 p{
     font-family: Arial, sans-serif;
+    text-align: left;
 }
 
 #main{
@@ -40,6 +49,13 @@ p{
     font-family: "Times New Roman", Times, serif;
     flex-wrap: wrap;
     padding: 1em 1em;
+    text-align: center;
+}
+
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 1em; 
 }
 
 /* styles for images */
@@ -52,8 +68,13 @@ p{
 .img-main{
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .viz-image{
     height: 100px;
+}
+
+.comp-img{
+    text-align: center;
 }
